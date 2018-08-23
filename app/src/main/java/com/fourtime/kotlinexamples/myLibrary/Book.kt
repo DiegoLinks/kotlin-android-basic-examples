@@ -6,8 +6,8 @@ class Book(
 
         //Way of declaring variables, Variable nameOfvariable : TypeOfVariable = valueOfvariable
         //Example: var city: String = "Manchester"
-        var id: Int = 0,
-        var image_url: String = "",
-        var title: String = "",
-        var author: String = "",
-        var year: String = "")
+        val id: Int = 0,
+        val image_url: String = "",
+        val title: String = "",
+        val author: String = "",
+        val year: String = "")

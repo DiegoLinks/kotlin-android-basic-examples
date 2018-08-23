@@ -23,9 +23,9 @@ class BookAdapter  (private val books: List<Book>,
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val note = books[position]
+        val b = books[position]
         holder?.let {
-            it.bindView(note)
+            it.bindView(b)
         }
     }
 

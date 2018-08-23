@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.fourtime.kotlinexamples.myLibrary.MyLibraryActivity
+import com.fourtime.kotlinexamples.udacity.UdacityActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +23,13 @@ class MainActivity : AppCompatActivity() {
 
             //Create the intent, get the context "this", name of activity to open + ::class.java
             val intent = Intent(this, MyLibraryActivity::class.java)
+            startActivity(intent)
+
+        })
+
+        bt_udacity.setOnClickListener(View.OnClickListener {
+
+            val intent = Intent(this, UdacityActivity::class.java)
             startActivity(intent)
 
         })

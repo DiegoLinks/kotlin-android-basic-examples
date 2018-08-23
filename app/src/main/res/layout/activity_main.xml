@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,6 +17,17 @@
         android:layout_marginTop="5dp"
         android:textAllCaps="false"
         android:text="RecyclerView / Adapter and ViewHolder / Model / Mock / Glide"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/bt_udacity"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:text="Retrofit / API / Service / Sublist / ProgressBar"
         android:background="@color/white"/>
 
 </LinearLayout>

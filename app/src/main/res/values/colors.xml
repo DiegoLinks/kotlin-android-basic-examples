@@ -5,5 +5,21 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="seashell">#f1f1f1</color>
-    <color name="white">#ffffff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_s">#f2f2f2</color>
+    <color name="silver">#d0d1d3</color>
+    <color name="grey_s">#706f70</color>
+    <color name="grey_s5">#9b9b9b</color>
+    <color name="grey_l">#BDBDBD</color>
+    <color name="grey_ll">#f2f2f2</color>
+    <color name="grey_ss">#4b4b4b</color>
+    <color name="black_54">#8a000000</color>
+    <color name="black_87">#de000000</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="yellow">#FDD835</color>
+    <color name="green">#417505</color>
+    <color name="red_s">#8a0011</color>
+    <color name="red">#d0021b</color>
+
 </resources>
